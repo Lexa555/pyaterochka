@@ -1,0 +1,39 @@
+.Main {
+    padding-top: 30px;
+
+
+}
+
+.Main  {
+
+
+
+    
+    font-size: 16pt;
+}
+
+.Main .addProduct:hover {
+    cursor: pointer;
+
+}
+
+.Main .mainGrid {
+
+
+    
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.addProduct {
+    border-radius: 10px;
+
+    height: 50px;
+    width: 120px;
+    border-style: none;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 16pt;
+    
+}
+

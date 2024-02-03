@@ -1,0 +1,46 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15%;
+}
+
+.Login h1 {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.Login input {
+    outline: none;
+    border-bottom: solid;
+    padding-left: 10px;
+    height: 50px;
+
+    border-style: solid;
+    border-color: white;
+    border-bottom-color: rgb(182, 182, 182);
+    background-color: #ffffff;
+    color: rgb(160, 160, 160);
+    font-size: 10pt;
+    margin-bottom: 20px;
+}
+
+.Login button {
+    border-radius: 10px;
+
+    height: 50px;
+
+    border-style: none;
+    background-color: #ff0000;
+    color: white;
+    font-size: 16pt;
+}
+
+.Login button:hover {
+
+    cursor: pointer;
+}
+
+.Login #loginError {
+    color: red;
+    margin-top: 10px;
+}
